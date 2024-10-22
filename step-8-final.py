@@ -16,7 +16,7 @@ from matplotlib import pyplot
 def data_to_dict(data):
     data_dict = {}
     for i in range(1, len(data)):
-        row = data[i] # Get the current row of data
+        row = data[i] # Get the current row of dataa
         name = row[0] # The first element in the row is the member's name
         steps = numpy.array(row[1:], dtype=int) 
         data_dict[name] = steps 
